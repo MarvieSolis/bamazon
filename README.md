@@ -19,7 +19,7 @@ The "userShopping()" function uses inquirer to ask the user what item they would
 Similarly to the "readList()" function, the "saleItems()" function loops through a query response that collects all the data from 'bamazon.sql', and displays the information on the terminal via console.logs. This information consists of item_id (which auto increments), product_name, department_name, stock_quantity, and price. 
 
 #### Listing Low Inventory Items
-Again, just like the "readList()" and "saleItems", the "lowInventory()" function loops through a query response that collects all the data from 'bamazon.sql', and displays the information on the terminal via console.logs. The main difference however, is that the parameter of any item with a stock quantity of less that 5 is only displayed. This is done by adding "WHERE stock_quantity < 5" to the query.
+Again, just like the "readList()" and "saleItems", the "lowInventory()" function loops through a query response that collects all the data from 'bamazon.sql', and displays the information on the terminal via console.logs. The main difference however, is that the parameter of any item with a stock quantity of less that 5 is only displayed. This is done by adding '''WHERE stock_quantity < 5" to the query'''.
 
 #### Adding to Inventory
 Adding more stock to an existing item is done using inquirer and mysql. The application will ask what item would they like to add more of. The user will then enter the corresponding item_id. The user is then prompted to enter the amount they would like to add. Upon doing so, the information in the database should update.
