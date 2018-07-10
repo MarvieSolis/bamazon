@@ -55,6 +55,10 @@ var userShopping = function () {
         console.log("Not enough items in stock to satisfy your request!");
         userShopping();
       }
+      else if (res.length < inquirerResponse.itemID) {
+        console.log("Invalid item ID");
+        userShopping();
+      }
       else {
         connection.query(
           "UPDATE products SET ? WHERE ?",
