@@ -29,7 +29,9 @@ Adding a new product utilizes an INSERT command in the query. The information is
 
 ### Demo videos
 [bamazonCustomer.js](https://www.youtube.com/watch?v=xur6h4yzXMA)
+
 [bamazonManager.js](https://www.youtube.com/watch?v=Gq91xLrHwtQ)
+
 
 ## The Usefulness
 This program emphasizes on using information obtained from a database in MySQL, and being able to access and manipulate the information in Node applications.
